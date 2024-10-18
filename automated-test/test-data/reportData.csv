@@ -1,0 +1,3 @@
+tcType,reportCategoryId,fullname,gender,province_id,tipe_korban,description,lat,lng,address_location,urgency,userfilePath
+positive,3,Hanif ADN,l,1,php,Tes,1,1,Cimahi,rendasasah,/Hanif/hanif.png
+negative,3,Hanif ADN,,1,php,Tes,1,1,Cimahi,rendasasah,/Hanif/hanif.png

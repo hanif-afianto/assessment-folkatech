@@ -1,0 +1,22 @@
+{
+  "name": "technicaltest-folkatech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mobile-test":"npx playwright test laporFolka.spec.ts --project=\"Mobile\"",
+    "api-test": "npx playwright test apiReport.spec.ts --project=\"API\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  },
+  "dependencies": {
+    "@appetize/playwright": "^1.4.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  }
+}
